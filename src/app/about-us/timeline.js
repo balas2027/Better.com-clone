@@ -82,7 +82,7 @@ export default function CompanyTimeline() {
             </div>
           </div>
         </div>
-        <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+        <div className="relative flex items-center justify-between  md:mt-40 md:justify-normal md:odd:flex-row-reverse group is-active">
           <div className="flex items-center  justify-center w-20 h-12  rounded-2xl border border-white bg-slate-300 group-[.is-active]:bg-emerald-700 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 ">
             <span className="text-white font-bold text-lg">2023</span>
           </div>
@@ -94,7 +94,7 @@ export default function CompanyTimeline() {
             </div>
           </div>
         </div>
-        <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+        <div className="relative flex items-center justify-between  md:mt-40 md:justify-normal md:odd:flex-row-reverse group is-active">
            <div className="flex items-center  justify-center w-20 h-12  rounded-2xl border border-white bg-slate-300 group-[.is-active]:bg-emerald-700 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 ">
             <span className="text-white font-bold text-lg">2023</span>
           </div>
