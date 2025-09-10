@@ -11,12 +11,12 @@ export default function Page() {
   return (
     <div className="w-full bg-gradient-to-l from-white via-gray-100 to-white xl:max-w-7xl xl:mx-auto">
       <div className="Nav flex sticky top-0 bg-gradient-to-l from-white via-gray-100 to-white justify-between items-center border-b-4 pb-5 pt-3  border-gray-200 xl:max-w-7xl w-full xl:mx-auto sm:px-0 px-10 h-25">
-        <h1 className="text-lg font-semibold">
+        <h1 className="md:text-lg text-sm font-semibold">
           <span className="text-emerald-700 font-bold"> Better</span> <br />{" "}
           Mortgage
         </h1>
 
-        <button className="font-semibold text-lg">
+        <button className="font-semibold text-sm md:text-lg">
           Need help? Call 415-523-8837
         </button>
 
