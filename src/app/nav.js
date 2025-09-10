@@ -74,7 +74,7 @@ export default function Nav() {
 
   return (
     <div className="bg-emerald-800">
-      <div className="bg-emerald-900 h-25 w-full">
+      <div className="bg-emerald-900 h-15 md:h-25 w-full">
         <div className="max-w-7xl mx-auto h-full flex items-center justify-between px-4 sm:px-6">
           {/* Logo and Desktop Menu */}
           <div className="flex items-center w-full justify-between">
@@ -162,8 +162,8 @@ export default function Nav() {
                   <button
                     className="w-full text-left text-white hover:text-black hover:bg-white px-3 py-2 rounded-2xl flex justify-between items-center"
                     onClick={() => toggleDropdown(menu.name)}
-                  >
-                    {menu.name}
+                  ><a href={link}>
+                    {menu.name}</a>
                     <svg
                       className={`w-4 h-4 transform transition-transform ${
                         openDropdown === menu.name ? "rotate-180" : ""
