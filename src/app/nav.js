@@ -159,11 +159,11 @@ export default function Nav() {
             <div className="px-4 py-4 space-y-2">
               {menuItems.map((menu) => (
                 <div key={menu.name}>
-                  <button
+                  <a href={menu.link}><button
                     className="w-full text-left text-white hover:text-black hover:bg-white px-3 py-2 rounded-2xl flex justify-between items-center"
                     onClick={() => toggleDropdown(menu.name)}
-                  ><a href={menu.link}>
-                    {menu.name}</a>
+                  >
+                    {menu.name}
                     <svg
                       className={`w-4 h-4 transform transition-transform ${
                         openDropdown === menu.name ? "rotate-180" : ""
@@ -180,6 +180,7 @@ export default function Nav() {
                       />
                     </svg>
                   </button>
+</a>
 
                   {openDropdown === menu.name && (
                     <div className="ml-4 mt-2 space-y-2">
