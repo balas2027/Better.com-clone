@@ -202,7 +202,7 @@ export default function Home() {
       <Footer />
 
       {/* legal things */}
-      <div className="text-[12px] flex flex-col  max-w-7xl mx-auto space-y-2 py-10 border-b-1 border-gray-600 text-gray-600">
+      <div className="text-[12px] flex flex-col mx-3 sm:mx-5 xl:mx-auto  max-w-7xl space-y-2 py-10 border-b-1 border-gray-600 text-gray-600">
         <p>
           1 Better Mortgage’s One Day Mortgage™ promotion offers qualified
           customers who provide certain required financial
