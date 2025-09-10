@@ -239,7 +239,7 @@ export default function Home() {
           appraisal is required to calculate a borrower’s home value.
         </p>
       </div>
-      <div className="text-[12px] flex flex-col  max-w-7xl mx-auto space-y-2 py-10 text-gray-600">
+      <div className="text-[12px] flex flex-col  max-w-7xl sm:mx-5 mx-3 xl:mx-auto space-y-2 py-10 text-gray-600">
         <p>
           © 2025 Better Home & Finance Holding Company and/or its affiliates.
           Better is a family of companies. Better Mortgage Corporation provides
