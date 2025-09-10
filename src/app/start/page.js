@@ -16,14 +16,14 @@ export default function Page() {
           Mortgage
         </h1>
 
-        <button className="font-semibold text-sm md:text-lg">
+        <button className="font-semibold text-[10px] md:text-lg">
           Need help? Call 415-523-8837
         </button>
 
         <a
           href="/"
           className="absolute flex items-center justify-center bg-emerald-800 border-4 border-emerald-400 
-              h-10 w-10 top-[80%] left-[48%] p-2 rounded-full
+              h-10 w-10 top-[80%] left-[45%] sm:left-[48%] p-2 rounded-full
               shadow-[0_0_15px_4px_rgba(16,185,129,0.7)]"
         ><Home className='text-green-400'/></a>
       </div>
