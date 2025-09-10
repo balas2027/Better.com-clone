@@ -1,4 +1,4 @@
-."use client";
+"use client";
 import { useState } from "react";
 import { ArrowRight, PhoneCall } from "lucide-react";
 export default function Nav() {
