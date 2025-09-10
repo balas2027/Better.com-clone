@@ -70,7 +70,7 @@ export default function Page() {
             After a few questions, you'll unlock:
           </h1>
 
-          <ul className="space-y-3 flex flex-col items-start pl-35">
+          <ul className="space-y-3 flex flex-col md:items-start md:pl-20 items-center lg:pl-35">
             <li className="flex items-center gap-2">
               <span className="text-emerald-600"></span>
               <span>Custom mortgage rates</span>
