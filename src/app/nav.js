@@ -1,4 +1,4 @@
-"use client";
+."use client";
 import { useState } from "react";
 import { ArrowRight, PhoneCall } from "lucide-react";
 export default function Nav() {
@@ -142,7 +142,7 @@ export default function Nav() {
                   />
                 ) : (
                   <path
-                    strokeLinecap="round"
+                    strokeLinecap="round" 
                     strokeLinejoin="round"
                     strokeWidth={2}
                     d="M4 6h16M4 12h16M4 18h16"
@@ -162,7 +162,7 @@ export default function Nav() {
                   <button
                     className="w-full text-left text-white hover:text-black hover:bg-white px-3 py-2 rounded-2xl flex justify-between items-center"
                     onClick={() => toggleDropdown(menu.name)}
-                  ><a href={link}>
+                  ><a href={menu.link}>
                     {menu.name}</a>
                     <svg
                       className={`w-4 h-4 transform transition-transform ${
